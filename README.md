@@ -63,10 +63,6 @@ In my opinion, computer science can be divided in 9 subfields:
 
 ### Part 2: Computer Architecture
 1. Computer Architecture by Carnegie Mellon: https://www.youtube.com/watch?v=BJ87rZCGWU0&list=PL5PHm2jkkXmidJOd59REog9jDnPDTG6IJ&index=2&t=0s
-2. Algoritms by Princeton: https://algs4.cs.princeton.edu/home/
-3. Analysis of algorithms by Princeton: https://aofa.cs.princeton.edu/home/
-4. Analytic Combinatorics by Princeton: https://ac.cs.princeton.edu/home/
-
 
 ### Part 3: Algoritms and Data Structures 
 
@@ -74,6 +70,11 @@ In my opinion, computer science can be divided in 9 subfields:
 2. Advanced Algorithms by Harvard: https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf
 3. Undergrad Complexity Theory at CMU: https://www.youtube.com/watch?v=RxhpiYKFQd8&list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2
 4. Graduate Complexity Theory at CMU: https://www.youtube.com/watch?v=pRnnEOAQZF8&list=PLm3J0oaFux3b8Gg1DdaJOzYNsaXYLAOKH
+5. Algoritms by Princeton: https://algs4.cs.princeton.edu/home/
+6. Analysis of algorithms by Princeton: https://aofa.cs.princeton.edu/home/
+7. Analytic Combinatorics by Princeton: https://ac.cs.princeton.edu/home/
+
+ 
 
 	Checklist:
 	- Time and Space Complexity: Big O, Omega
