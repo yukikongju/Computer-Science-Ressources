@@ -17,11 +17,15 @@ In my opinion, computer science can be divided in 9 subfields:
 ### Ressources that I used to build my learning path
 
 - CS 4 Free: https://www.cs4free.com/
-
+- Self Learning CS Curriculum: https://functionalcs.github.io/curriculum/#org657719e
+- OSSU Curriculum: https://github.com/ossu/computer-science
+- Intensive Bs Curriculum: http://blog.agupieware.com/2014/06/online-learning-intensive-bachelors.html?m=1
+- Teach Yourself CS: https://teachyourselfcs.com/
 
 ### Part 1: Programming
-
-	[to do]
+1. Think C++ by Allen Downey
+2. Think Python by Allen Downey
+3. Think Java by Allen Downey
 	
 	Checklist:
 	- Data types: char, int, string, bool, float, double , long
@@ -30,7 +34,12 @@ In my opinion, computer science can be divided in 9 subfields:
 		2. loops: for, while, do while
 		3. Functions
 		4. Exceptions: try/catch
-	- Object Oriented;
+	- Programming Paradigms:
+		1. Object Oriented: Java, Python, C++
+		2. Functional: lisp
+		3. Logical: Prolog
+		4. Procedural: Assembly
+	- Object Oriented:
 		1. Encapsulation
 		2. Inheritance
 		3. Polymorphism
@@ -40,7 +49,7 @@ In my opinion, computer science can be divided in 9 subfields:
 		1. Low-level vs High-level: manage pointers?
 		2. Compilers vs Interpreters: source code into machine code or actions?
 		3. Dynamic Typing vs Static Typing: space allocations
-		4. Weak vs Strong Typing: type checking at run time?
+		4. Weak vs Strong Typing: datatype checking at run time? 
 		5. Paradigm: 
 			1. Imperative vs Functional: Instructions precised or concepts?
 			2. Procedural vs object-oriented: how code is separated?
@@ -85,6 +94,9 @@ In my opinion, computer science can be divided in 9 subfields:
 	[to do]
 
 ### Part 5: Operating Systems
+1. Operating Systems: Three Easy Piece by Remzi Arpaci-Dusseau: http://pages.cs.wisc.edu/~remzi/OSTEP/#:~:text=The%20book%20is%20centered%20around,virtualization%2C%20concurrency%2C%20and%20persistence.
+2. Operating System by Neso Academy: https://www.youtube.com/watch?v=vBURTt97EkA&list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O&index=1
+
 
 	[to do]
 
@@ -101,6 +113,9 @@ In my opinion, computer science can be divided in 9 subfields:
 	- Scaling:
 		1. Horizontal vs Vertical Scaling
 		2. Cloud Server
+
+	Ressources:
+	- Networks, Crowds, and Markets by Cornell: https://www.cs.cornell.edu/home/kleinber/networks-book/
 
 ### Part 7: Databases 
 
@@ -122,7 +137,6 @@ In my opinion, computer science can be divided in 9 subfields:
 
 3. Computer Security: 
 	a. Computer System Security by MIT: https://www.youtube.com/watch?v=GqmQg-cszw4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2&t=0s
+	b. Introduction to Cryptography by Christof Paar: https://www.youtube.com/watch?v=2aHkqB2-46k&list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy 
 
-
-
-
+4. Web development
