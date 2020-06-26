@@ -22,10 +22,14 @@ In my opinion, computer science can be divided in 9 subfields:
 - Intensive Bs Curriculum: http://blog.agupieware.com/2014/06/online-learning-intensive-bachelors.html?m=1
 - Teach Yourself CS: https://teachyourselfcs.com/
 
+### Part 0: The Missing Semester of Your CS Education
+1. MIT's Missing Smester of Your CS Degree: https://missing.csail.mit.edu/
+
 ### Part 1: Programming
 1. Think C++ by Allen Downey
 2. Think Python by Allen Downey
 3. Think Java by Allen Downey
+4. Programming in Python by Princeton: https://introcs.cs.princeton.edu/python/home/
 	
 	Checklist:
 	- Data types: char, int, string, bool, float, double , long
@@ -59,12 +63,17 @@ In my opinion, computer science can be divided in 9 subfields:
 
 ### Part 2: Computer Architecture
 1. Computer Architecture by Carnegie Mellon: https://www.youtube.com/watch?v=BJ87rZCGWU0&list=PL5PHm2jkkXmidJOd59REog9jDnPDTG6IJ&index=2&t=0s
+2. Algoritms by Princeton: https://algs4.cs.princeton.edu/home/
+3. Analysis of algorithms by Princeton: https://aofa.cs.princeton.edu/home/
+4. Analytic Combinatorics by Princeton: https://ac.cs.princeton.edu/home/
 
 
 ### Part 3: Algoritms and Data Structures 
 
 1. Intro to Algorithms by MIT 6.006: https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
 2. Advanced Algorithms by Harvard: https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf
+3. Undergrad Complexity Theory at CMU: https://www.youtube.com/watch?v=RxhpiYKFQd8&list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2
+4. Graduate Complexity Theory at CMU: https://www.youtube.com/watch?v=pRnnEOAQZF8&list=PLm3J0oaFux3b8Gg1DdaJOzYNsaXYLAOKH
 
 	Checklist:
 	- Time and Space Complexity: Big O, Omega
@@ -103,6 +112,7 @@ In my opinion, computer science can be divided in 9 subfields:
 ### Part 6: Computer Networking
 
 1. Intro to Computer Networking by Standford: https://www.youtube.com/watch?v=0iSICdbDIYI&list=PLEAYkSg4uSQ2dr0XO_Nwa5OcdEcaaELSG&index=3&t=0s
+2. Data Communications and Networks by Steven Gordon: https://www.youtube.com/watch?v=M7l6O6p-D50&list=PLD1CA8F62AC00C75E
 	
 	Checklist:
 	- Internet Protocols:
@@ -137,6 +147,9 @@ In my opinion, computer science can be divided in 9 subfields:
 
 3. Computer Security: 
 	a. Computer System Security by MIT: https://www.youtube.com/watch?v=GqmQg-cszw4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2&t=0s
-	b. Introduction to Cryptography by Christof Paar: https://www.youtube.com/watch?v=2aHkqB2-46k&list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy 
+	b. Introduction to Cryptography by Christof Paar: https://www.youtube.com/watch?v=2aHkqB2-46k&list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy
+	c. Security and Cryptography by Steven Gordon: https://www.youtube.com/watch?v=4eDb8mIPvBU&list=PLvifRcqOOwF-b74gWV5TpyMFFs2dVlqTt
 
-4. Web development
+5. Web development
+
+6. Quantum Computation and Information at CMU: https://www.youtube.com/watch?v=78tSf2R1huk&list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz
