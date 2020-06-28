@@ -74,8 +74,6 @@ In my opinion, computer science can be divided in 9 subfields:
 6. Analysis of algorithms by Princeton: https://aofa.cs.princeton.edu/home/
 7. Analytic Combinatorics by Princeton: https://ac.cs.princeton.edu/home/
 
- 
-
 	Checklist:
 	- Time and Space Complexity: Big O, Omega
 	- Data Structures:
@@ -106,7 +104,6 @@ In my opinion, computer science can be divided in 9 subfields:
 ### Part 5: Operating Systems
 1. Operating Systems: Three Easy Piece by Remzi Arpaci-Dusseau: http://pages.cs.wisc.edu/~remzi/OSTEP/#:~:text=The%20book%20is%20centered%20around,virtualization%2C%20concurrency%2C%20and%20persistence.
 2. Operating System by Neso Academy: https://www.youtube.com/watch?v=vBURTt97EkA&list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O&index=1
-
 
 	[to do]
 
@@ -151,6 +148,7 @@ In my opinion, computer science can be divided in 9 subfields:
 	b. Introduction to Cryptography by Christof Paar: https://www.youtube.com/watch?v=2aHkqB2-46k&list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy
 	c. Security and Cryptography by Steven Gordon: https://www.youtube.com/watch?v=4eDb8mIPvBU&list=PLvifRcqOOwF-b74gWV5TpyMFFs2dVlqTt
 
-5. Web development
+4. Web development
+	a. CS50 Web programming by Harvard: https://www.youtube.com/playlist?list=PLhQjrBD2T382hIW-IsOVuXP1uMzEvmcE5
 
-6. Quantum Computation and Information at CMU: https://www.youtube.com/watch?v=78tSf2R1huk&list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz
+5. Quantum Computation and Information at CMU: https://www.youtube.com/watch?v=78tSf2R1huk&list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz
