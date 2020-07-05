@@ -21,6 +21,7 @@ In my opinion, computer science can be divided in 9 subfields:
 - OSSU Curriculum: https://github.com/ossu/computer-science
 - Intensive Bs Curriculum: http://blog.agupieware.com/2014/06/online-learning-intensive-bachelors.html?m=1
 - Teach Yourself CS: https://teachyourselfcs.com/
+- Steven Gordon's Courses: https://sandilands.info/sgordon/teaching/
 
 ### Part 0: The Missing Semester of Your CS Education
 1. MIT's Missing Smester of Your CS Degree: https://missing.csail.mit.edu/
@@ -111,6 +112,8 @@ In my opinion, computer science can be divided in 9 subfields:
 
 1. Intro to Computer Networking by Standford: https://www.youtube.com/watch?v=0iSICdbDIYI&list=PLEAYkSg4uSQ2dr0XO_Nwa5OcdEcaaELSG&index=3&t=0s
 2. Data Communications and Networks by Steven Gordon: https://www.youtube.com/watch?v=M7l6O6p-D50&list=PLD1CA8F62AC00C75E
+3. Notes from Introduction to Data Communications by Steven Gordon: https://sandilands.info/sgordon/teaching/its323y15s1/topics
+4. Networking Laboratory by Steven Gordon: https://sandilands.info/sgordon/teaching/its352y15s2/topics
 	
 	Checklist:
 	- Internet Protocols:
@@ -144,11 +147,14 @@ In my opinion, computer science can be divided in 9 subfields:
 2. Artificial Intelligence: See Data-Science-Ressources repository 
 
 3. Computer Security: 
-	a. Computer System Security by MIT: https://www.youtube.com/watch?v=GqmQg-cszw4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2&t=0s
-	b. Introduction to Cryptography by Christof Paar: https://www.youtube.com/watch?v=2aHkqB2-46k&list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy
-	c. Security and Cryptography by Steven Gordon: https://www.youtube.com/watch?v=4eDb8mIPvBU&list=PLvifRcqOOwF-b74gWV5TpyMFFs2dVlqTt
+	1. Computer System Security by MIT: https://www.youtube.com/watch?v=GqmQg-cszw4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2&t=0s
+	2. Introduction to Cryptography by Christof Paar: https://www.youtube.com/watch?v=2aHkqB2-46k&list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy
+	3. Security and Cryptography by Steven Gordon: https://www.youtube.com/watch?v=4eDb8mIPvBU&list=PLvifRcqOOwF-b74gWV5TpyMFFs2dVlqTt
+	4. Notes for CSS441: Security and Cryptography by Steven Gordon: https://sandilands.info/sgordon/teaching/css441y15s2/slides/
+	5. Notes for CS332: Introduction to Computer Security by Steven Gordon: https://sandilands.info/sgordon/teaching/css322y12s2/lectures.html
+	6. Notes for IT Security by Steven Gordon: https://sandilands.info/sgordon/teaching/its335y15s2/topics
 
 4. Web development
-	a. CS50 Web programming by Harvard: https://www.youtube.com/playlist?list=PLhQjrBD2T382hIW-IsOVuXP1uMzEvmcE5
+	1. CS50 Web programming by Harvard: https://www.youtube.com/playlist?list=PLhQjrBD2T382hIW-IsOVuXP1uMzEvmcE5
 
 5. Quantum Computation and Information at CMU: https://www.youtube.com/watch?v=78tSf2R1huk&list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz
