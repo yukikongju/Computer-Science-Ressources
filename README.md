@@ -100,7 +100,12 @@ In my opinion, computer science can be divided in 9 subfields:
 	
 ### Part 4: Maths for CS
 
-	[to do]
+1. Introduction to Theorical Computer Science by Boaz Barak: https://introtcs.org/public/
+
+	Checklist:
+	- Calculus
+	- Linear Algebra
+	- Statistics
 
 ### Part 5: Operating Systems
 1. Operating Systems: Three Easy Piece by Remzi Arpaci-Dusseau: http://pages.cs.wisc.edu/~remzi/OSTEP/#:~:text=The%20book%20is%20centered%20around,virtualization%2C%20concurrency%2C%20and%20persistence.
