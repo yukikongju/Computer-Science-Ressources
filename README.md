@@ -22,11 +22,12 @@ In my opinion, computer science can be divided in 9 subfields:
 - Intensive Bs Curriculum: http://blog.agupieware.com/2014/06/online-learning-intensive-bachelors.html?m=1
 - Teach Yourself CS: https://teachyourselfcs.com/
 - Steven Gordon's Courses: https://sandilands.info/sgordon/teaching/
+- Carnegie Mellon University Curriculum: https://www.csd.cs.cmu.edu/cs-and-related-undergraduate-courses
 
 ### Part 0: The Missing Semester of Your CS Education
 1. MIT's Missing Smester of Your CS Degree: https://missing.csail.mit.edu/
 
-### Part 1: Programming
+### Part 1: Functionnal Programming
 1. Think C++ by Allen Downey
 2. Think Python by Allen Downey
 3. Think Java by Allen Downey
@@ -67,13 +68,14 @@ In my opinion, computer science can be divided in 9 subfields:
 
 ### Part 3: Algoritms and Data Structures 
 
-1. Intro to Algorithms by MIT 6.006: https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-2. Advanced Algorithms by Harvard: https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf
-3. Undergrad Complexity Theory at CMU: https://www.youtube.com/watch?v=RxhpiYKFQd8&list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2
-4. Graduate Complexity Theory at CMU: https://www.youtube.com/watch?v=pRnnEOAQZF8&list=PLm3J0oaFux3b8Gg1DdaJOzYNsaXYLAOKH
-5. Algoritms by Princeton: https://algs4.cs.princeton.edu/home/
-6. Analysis of algorithms by Princeton: https://aofa.cs.princeton.edu/home/
-7. Analytic Combinatorics by Princeton: https://ac.cs.princeton.edu/home/
+1. Hacker Rank Videos on YT
+2. Intro to Algorithms by MIT 6.006: https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+3. Advanced Algorithms by Harvard: https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf
+4. Undergrad Complexity Theory at CMU: https://www.youtube.com/watch?v=RxhpiYKFQd8&list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2
+5. Graduate Complexity Theory at CMU: https://www.youtube.com/watch?v=pRnnEOAQZF8&list=PLm3J0oaFux3b8Gg1DdaJOzYNsaXYLAOKH
+6. Algoritms by Princeton: https://algs4.cs.princeton.edu/home/
+7. Analysis of algorithms by Princeton: https://aofa.cs.princeton.edu/home/
+8. Analytic Combinatorics by Princeton: https://ac.cs.princeton.edu/home/
 
 	Checklist:
 	- Time and Space Complexity: Big O, Omega
@@ -105,6 +107,7 @@ In my opinion, computer science can be divided in 9 subfields:
 	Checklist:
 	- Calculus
 	- Linear Algebra
+	- Discrete Mathematics
 	- Statistics
 
 ### Part 5: Operating Systems
@@ -135,7 +138,8 @@ In my opinion, computer science can be divided in 9 subfields:
 
 ### Part 7: Databases 
 
-	[to do]
+1. Intro to Database Systems by Canegie Mellon University: https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi
+2. Notes for Intro to Database Systems by Carnegie Mellon University: https://15445.courses.cs.cmu.edu/fall2019/schedule.html
 
 ### Part 8: Languages and Compilers 
 
@@ -145,21 +149,21 @@ In my opinion, computer science can be divided in 9 subfields:
 
 	[to do]
 
-### More:
+### Specialization: Data Science and Artificial Intelligence
+	
+	See Data-Science-Ressources repository 
 
-1. Data Science: See Data-Science-Ressources repository 
+### Specialization: Computer Security
 
-2. Artificial Intelligence: See Data-Science-Ressources repository 
-
-3. Computer Security: 
-	1. Computer System Security by MIT: https://www.youtube.com/watch?v=GqmQg-cszw4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2&t=0s
+	1. MIT 6.858 - Computer System Security: https://www.youtube.com/watch?v=GqmQg-cszw4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2&t=0s
 	2. Introduction to Cryptography by Christof Paar: https://www.youtube.com/watch?v=2aHkqB2-46k&list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy
 	3. Security and Cryptography by Steven Gordon: https://www.youtube.com/watch?v=4eDb8mIPvBU&list=PLvifRcqOOwF-b74gWV5TpyMFFs2dVlqTt
 	4. Notes for CSS441: Security and Cryptography by Steven Gordon: https://sandilands.info/sgordon/teaching/css441y15s2/slides/
 	5. Notes for CS332: Introduction to Computer Security by Steven Gordon: https://sandilands.info/sgordon/teaching/css322y12s2/lectures.html
 	6. Notes for IT Security by Steven Gordon: https://sandilands.info/sgordon/teaching/its335y15s2/topics
+	7. Quantum Computation and Information at CMU: https://www.youtube.com/watch?v=78tSf2R1huk&list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz
 
-4. Web development
+### Specialization: Web development
+
 	1. CS50 Web programming by Harvard: https://www.youtube.com/playlist?list=PLhQjrBD2T382hIW-IsOVuXP1uMzEvmcE5
 
-5. Quantum Computation and Information at CMU: https://www.youtube.com/watch?v=78tSf2R1huk&list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz
