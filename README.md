@@ -23,15 +23,22 @@ In my opinion, computer science can be divided in 9 subfields:
 - Teach Yourself CS: https://teachyourselfcs.com/
 - Steven Gordon's Courses: https://sandilands.info/sgordon/teaching/
 - Carnegie Mellon University Curriculum: https://www.csd.cs.cmu.edu/cs-and-related-undergraduate-courses
+- Giselle Reis Courses: http://www.gisellereis.com/courses/
+- Kayvon Fatahalian's Course: http://graphics.stanford.edu/~kayvonf/
+- Bioinformatics Curriculum by UC San Diego: http://be.ucsd.edu/bioinformatics-curriculum
+- Introductory Programming Courses by MIT: https://ocw.mit.edu/courses/intro-programming/
 
-### Part 0: The Missing Semester of Your CS Education
+### Part 0: Being a Functionnal Programmer
 1. MIT's Missing Smester of Your CS Degree: https://missing.csail.mit.edu/
+2. Foudations of Software Engineering by Carnegie Mellon University: https://www.cs.cmu.edu/~ckaestne/15313/2018/index.html#schedule
+3. 15-300: Research and Innovation in Computer Science: http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15300-f19/www/index.html
 
 ### Part 1: Functionnal Programming
 1. Think C++ by Allen Downey
 2. Think Python by Allen Downey
 3. Think Java by Allen Downey
 4. Programming in Python by Princeton: https://introcs.cs.princeton.edu/python/home/
+5. MIT 6.S096 - Introduction to C and C++: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-introduction-to-c-and-c-january-iap-2013/index.htm
 	
 	Checklist:
 	- Data types: char, int, string, bool, float, double , long
@@ -62,9 +69,14 @@ In my opinion, computer science can be divided in 9 subfields:
 
 	Ressources:
 	- Brian Will
+	- Geeks for Geeks: https://www.geeksforgeeks.org/
+	- w3schools: https://www.w3schools.com/python
+
+
 
 ### Part 2: Computer Architecture
 1. Computer Architecture by Carnegie Mellon: https://www.youtube.com/watch?v=BJ87rZCGWU0&list=PL5PHm2jkkXmidJOd59REog9jDnPDTG6IJ&index=2&t=0s
+2. Parallel Computer Architecture and Programming by Carnegie Mellon: http://www.cs.cmu.edu/~418/schedule.html
 
 ### Part 3: Algoritms and Data Structures 
 
@@ -99,10 +111,16 @@ In my opinion, computer science can be divided in 9 subfields:
 		1. Depth First Search: Stack
 		2. Breadth First Search: Queue
 		3. Dikjstra
+		
+	Ressources:
+	  - Leetcode
+	  - Rosalind
+	  - Hackerrank
 	
 ### Part 4: Maths for CS
 
 1. Introduction to Theorical Computer Science by Boaz Barak: https://introtcs.org/public/
+2. Constructive Logic by Giselle Reis from Carnegie Mellon: http://www.gisellereis.com/15317-s17/
 
 	Checklist:
 	- Calculus
@@ -143,9 +161,13 @@ In my opinion, computer science can be divided in 9 subfields:
 
 ### Part 8: Languages and Compilers 
 
+1. MIT 6.0005 - Software Constrution (Java): https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-005-software-construction-spring-2016/
+3. 15.414 - Bug Catching by Carnegie Mellon: http://www.cs.cmu.edu/~emc/15414-f11/lecture.html
+
 	[to do]
 
 ### Part 9: Distributed Systems
+1. Distributed Systems by Carnegie Mellon University: http://www.cs.cmu.edu/~srini/15-440/syllabus.html
 
 	[to do]
 
@@ -167,3 +189,10 @@ In my opinion, computer science can be divided in 9 subfields:
 
 	1. CS50 Web programming by Harvard: https://www.youtube.com/playlist?list=PLhQjrBD2T382hIW-IsOVuXP1uMzEvmcE5
 
+### Specialization: Computer Graphics
+
+	1. Stanford CS248 - Interactive Computer Graphics: http://graphics.stanford.edu/courses/cs248-18-spring/
+	2. Stanford CS348V - Visual Computing Systems: http://graphics.stanford.edu/courses/cs348v-18-winter/ 
+	3. CMU 15-462/662 - Computer Graphics: http://15462.courses.cs.cmu.edu/fall2015/
+	4. Graphics and Imaging Architectures by Kayvon Fatahalian: http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15869-f11/www/
+	5. Stanford CS 178 - Digital Photography: http://graphics.stanford.edu/courses/cs178-11/
