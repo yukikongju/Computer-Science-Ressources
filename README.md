@@ -16,29 +16,32 @@ In my opinion, computer science can be divided in 9 subfields:
 
 ### Ressources that I used to build my learning path
 
-- CS 4 Free: https://www.cs4free.com/
-- Self Learning CS Curriculum: https://functionalcs.github.io/curriculum/#org657719e
-- OSSU Curriculum: https://github.com/ossu/computer-science
-- Intensive Bs Curriculum: http://blog.agupieware.com/2014/06/online-learning-intensive-bachelors.html?m=1
-- Teach Yourself CS: https://teachyourselfcs.com/
-- Steven Gordon's Courses: https://sandilands.info/sgordon/teaching/
-- Carnegie Mellon University Curriculum: https://www.csd.cs.cmu.edu/cs-and-related-undergraduate-courses
-- Giselle Reis Courses: http://www.gisellereis.com/courses/
-- Kayvon Fatahalian's Course: http://graphics.stanford.edu/~kayvonf/
-- Bioinformatics Curriculum by UC San Diego: http://be.ucsd.edu/bioinformatics-curriculum
-- Introductory Programming Courses by MIT: https://ocw.mit.edu/courses/intro-programming/
+	- CS 4 Free: https://www.cs4free.com/
+	- Self Learning CS Curriculum: https://functionalcs.github.io/curriculum/#org657719e
+	- OSSU Curriculum: https://github.com/ossu/computer-science
+	- Intensive Bs Curriculum: http://blog.agupieware.com/2014/06/online-learning-intensive-bachelors.html?m=1
+	- Teach Yourself CS: https://teachyourselfcs.com/
+	- Steven Gordon's Courses: https://sandilands.info/sgordon/teaching/
+	- Carnegie Mellon University Curriculum: https://www.csd.cs.cmu.edu/cs-and-related-undergraduate-courses
+	- Giselle Reis Courses: http://www.gisellereis.com/courses/
+	- Kayvon Fatahalian's Course: http://graphics.stanford.edu/~kayvonf/
+	- Bioinformatics Curriculum by UC San Diego: http://be.ucsd.edu/bioinformatics-curriculum
+	- Joshua Zhanson Course's: http://jzhanson.com/
+	- Introductory Programming Courses by MIT: https://ocw.mit.edu/courses/intro-programming/
 
 ### Part 0: Being a Functionnal Programmer
-1. MIT's Missing Smester of Your CS Degree: https://missing.csail.mit.edu/
-2. Foudations of Software Engineering by Carnegie Mellon University: https://www.cs.cmu.edu/~ckaestne/15313/2018/index.html#schedule
-3. 15-300: Research and Innovation in Computer Science: http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15300-f19/www/index.html
+
+	1. MIT's Missing Smester of Your CS Degree: https://missing.csail.mit.edu/
+	2. Foudations of Software Engineering by Carnegie Mellon University: https://www.cs.cmu.edu/~ckaestne/15313/2018/index.html#schedule
+	3. 15-300: Research and Innovation in Computer Science: http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15300-f19/www/index.html
 
 ### Part 1: Functionnal Programming
-1. Think C++ by Allen Downey
-2. Think Python by Allen Downey
-3. Think Java by Allen Downey
-4. Programming in Python by Princeton: https://introcs.cs.princeton.edu/python/home/
-5. MIT 6.S096 - Introduction to C and C++: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-introduction-to-c-and-c-january-iap-2013/index.htm
+
+	1. Think C++ by Allen Downey
+	2. Think Python by Allen Downey
+	3. Think Java by Allen Downey
+	4. Programming in Python by Princeton: https://introcs.cs.princeton.edu/python/home/
+	5. MIT 6.S096 - Introduction to C and C++: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-introduction-to-c-and-c-january-iap-2013/index.htm
 	
 	Checklist:
 	- Data types: char, int, string, bool, float, double , long
@@ -75,19 +78,21 @@ In my opinion, computer science can be divided in 9 subfields:
 
 
 ### Part 2: Computer Architecture
-1. Computer Architecture by Carnegie Mellon: https://www.youtube.com/watch?v=BJ87rZCGWU0&list=PL5PHm2jkkXmidJOd59REog9jDnPDTG6IJ&index=2&t=0s
-2. Parallel Computer Architecture and Programming by Carnegie Mellon: http://www.cs.cmu.edu/~418/schedule.html
+
+	1. Computer Architecture by Carnegie Mellon: https://www.youtube.com/watch?v=BJ87rZCGWU0&list=PL5PHm2jkkXmidJOd59REog9jDnPDTG6IJ&index=2&t=0s
+	2. Parallel Computer Architecture and Programming by Carnegie Mellon: http://www.cs.cmu.edu/~418/schedule.html
 
 ### Part 3: Algoritms and Data Structures 
 
-1. Hacker Rank Videos on YT
-2. Intro to Algorithms by MIT 6.006: https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-3. Advanced Algorithms by Harvard: https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf
-4. Undergrad Complexity Theory at CMU: https://www.youtube.com/watch?v=RxhpiYKFQd8&list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2
-5. Graduate Complexity Theory at CMU: https://www.youtube.com/watch?v=pRnnEOAQZF8&list=PLm3J0oaFux3b8Gg1DdaJOzYNsaXYLAOKH
-6. Algoritms by Princeton: https://algs4.cs.princeton.edu/home/
-7. Analysis of algorithms by Princeton: https://aofa.cs.princeton.edu/home/
-8. Analytic Combinatorics by Princeton: https://ac.cs.princeton.edu/home/
+	1. Hacker Rank Videos on YT
+	2. Intro to Algorithms by MIT 6.006: https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+	3. Advanced Algorithms by Harvard: https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf
+	4. Undergrad Complexity Theory at CMU: https://www.youtube.com/watch?v=RxhpiYKFQd8&list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2
+	5. Graduate Complexity Theory at CMU: https://www.youtube.com/watch?v=pRnnEOAQZF8&list=PLm3J0oaFux3b8Gg1DdaJOzYNsaXYLAOKH
+	6. Algoritms by Princeton: https://algs4.cs.princeton.edu/home/
+	7. Analysis of algorithms by Princeton: https://aofa.cs.princeton.edu/home/
+	8. Analytic Combinatorics by Princeton: https://ac.cs.princeton.edu/home/
+	9. MIT 6.002 - Introduction to Computational Thinking and Data Structures: 
 
 	Checklist:
 	- Time and Space Complexity: Big O, Omega
@@ -119,8 +124,8 @@ In my opinion, computer science can be divided in 9 subfields:
 	
 ### Part 4: Maths for CS
 
-1. Introduction to Theorical Computer Science by Boaz Barak: https://introtcs.org/public/
-2. Constructive Logic by Giselle Reis from Carnegie Mellon: http://www.gisellereis.com/15317-s17/
+	1. Introduction to Theorical Computer Science by Boaz Barak: https://introtcs.org/public/
+	2. Constructive Logic by Giselle Reis from Carnegie Mellon: http://www.gisellereis.com/15317-s17/
 
 	Checklist:
 	- Calculus
@@ -129,17 +134,18 @@ In my opinion, computer science can be divided in 9 subfields:
 	- Statistics
 
 ### Part 5: Operating Systems
-1. Operating Systems: Three Easy Piece by Remzi Arpaci-Dusseau: http://pages.cs.wisc.edu/~remzi/OSTEP/#:~:text=The%20book%20is%20centered%20around,virtualization%2C%20concurrency%2C%20and%20persistence.
-2. Operating System by Neso Academy: https://www.youtube.com/watch?v=vBURTt97EkA&list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O&index=1
+
+	1. Operating Systems: Three Easy Piece by Remzi Arpaci-Dusseau: http://pages.cs.wisc.edu/~remzi/OSTEP/#:~:text=The%20book%20is%20centered%20around,virtualization%2C%20concurrency%2C%20and%20persistence.
+	2. Operating System by Neso Academy: https://www.youtube.com/watch?v=vBURTt97EkA&list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O&index=1
 
 	[to do]
 
 ### Part 6: Computer Networking
 
-1. Intro to Computer Networking by Standford: https://www.youtube.com/watch?v=0iSICdbDIYI&list=PLEAYkSg4uSQ2dr0XO_Nwa5OcdEcaaELSG&index=3&t=0s
-2. Data Communications and Networks by Steven Gordon: https://www.youtube.com/watch?v=M7l6O6p-D50&list=PLD1CA8F62AC00C75E
-3. Notes from Introduction to Data Communications by Steven Gordon: https://sandilands.info/sgordon/teaching/its323y15s1/topics
-4. Networking Laboratory by Steven Gordon: https://sandilands.info/sgordon/teaching/its352y15s2/topics
+	1. Intro to Computer Networking by Standford: https://www.youtube.com/watch?v=0iSICdbDIYI&list=PLEAYkSg4uSQ2dr0XO_Nwa5OcdEcaaELSG&index=3&t=0s
+	2. Data Communications and Networks by Steven Gordon: https://www.youtube.com/watch?v=M7l6O6p-D50&list=PLD1CA8F62AC00C75E
+	3. Notes from Introduction to Data Communications by Steven Gordon: https://sandilands.info/sgordon/teaching/its323y15s1/topics
+	4. Networking Laboratory by Steven Gordon: https://sandilands.info/sgordon/teaching/its352y15s2/topics
 	
 	Checklist:
 	- Internet Protocols:
@@ -156,24 +162,27 @@ In my opinion, computer science can be divided in 9 subfields:
 
 ### Part 7: Databases 
 
-1. Intro to Database Systems by Canegie Mellon University: https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi
-2. Notes for Intro to Database Systems by Carnegie Mellon University: https://15445.courses.cs.cmu.edu/fall2019/schedule.html
+	1. Intro to Database Systems by Canegie Mellon University: https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi
+	2. Notes for Intro to Database Systems by Carnegie Mellon University: https://15445.courses.cs.cmu.edu/fall2019/schedule.html
 
 ### Part 8: Languages and Compilers 
 
-1. MIT 6.0005 - Software Constrution (Java): https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-005-software-construction-spring-2016/
-3. 15.414 - Bug Catching by Carnegie Mellon: http://www.cs.cmu.edu/~emc/15414-f11/lecture.html
+	1. MIT 6.0005 - Software Constrution (Java): https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-005-software-construction-spring-2016/
+	2. 15.414 - Bug Catching by Carnegie Mellon: http://www.cs.cmu.edu/~emc/15414-f11/lecture.html
 
 	[to do]
 
 ### Part 9: Distributed Systems
-1. Distributed Systems by Carnegie Mellon University: http://www.cs.cmu.edu/~srini/15-440/syllabus.html
+	
+	1. Distributed Systems by Carnegie Mellon University: http://www.cs.cmu.edu/~srini/15-440/syllabus.html
 
 	[to do]
 
 ### Specialization: Data Science and Artificial Intelligence
 	
 	See Data-Science-Ressources repository 
+	
+	1. Syllabus Standford CS229: Applied Machine Learning: http://cs229.stanford.edu/syllabus-summer2020.html
 
 ### Specialization: Computer Security
 
@@ -184,6 +193,7 @@ In my opinion, computer science can be divided in 9 subfields:
 	5. Notes for CS332: Introduction to Computer Security by Steven Gordon: https://sandilands.info/sgordon/teaching/css322y12s2/lectures.html
 	6. Notes for IT Security by Steven Gordon: https://sandilands.info/sgordon/teaching/its335y15s2/topics
 	7. Quantum Computation and Information at CMU: https://www.youtube.com/watch?v=78tSf2R1huk&list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz
+	8. Stanford CS 253 Web Security: https://web.stanford.edu/class/cs253/
 
 ### Specialization: Web development
 
