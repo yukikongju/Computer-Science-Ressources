@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://courses.mscs.uic.edu/stat/stat101/ -->
+<html class="no-js" lang="en-US" data-useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!-- Google Analytics script (RED and this site) -->
+  <script type="text/javascript" async="" src="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/analytics.js.download"></script><script async="" src="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/gtm.js.download"></script><script async="" src="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/analytics.js.download"></script><script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    
+        ga('create', 'UA-20665772-1', 'auto');
+    
+    
+        ga('send', 'pageview');
+    
+      </script>
+<!-- End Google Analytics script (RED and this site) -->
+
+
+
+<!-- Google Tag Manager script for RED multisite -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
+              (window,document,'script','dataLayer','GTM-W2Q8D2K');
+  </script>
+<!-- End Google Tag Manager script for RED multisite -->
+
+
+
+
+
+
+        <title>
+                            STAT 101: Introduction to Statistics | MSCS Courses | University of Illinois at Chicago
+                    </title>
+
+
+
+<!-- SEO Meta Description for this page -->
+<meta name="description" content="Introduction to statistics covering displaying and describing data, the normal curve, regression, probability, statistical inference, confidence intervals, and hypothesis tests with applications in the real world.">
+<!-- End SEO Meta Description for this page -->
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="pingback" href="https://courses.mscs.uic.edu/xmlrpc.php">
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://courses.mscs.uic.edu/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://courses.mscs.uic.edu/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://courses.mscs.uic.edu/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://courses.mscs.uic.edu/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://courses.mscs.uic.edu/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://courses.mscs.uic.edu/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://courses.mscs.uic.edu/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://courses.mscs.uic.edu/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="https://courses.mscs.uic.edu/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="https://courses.mscs.uic.edu/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://courses.mscs.uic.edu/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://courses.mscs.uic.edu/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="https://courses.mscs.uic.edu/favicon-128.png" sizes="128x128">
+<meta name="application-name" content=" ">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="mstile-144x144.png">
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png">
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png">
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png">
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png">
+
+    <link rel="stylesheet" href="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/main.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/theinhardt.css" type="text/css" media="all">
+
+    <link rel="dns-prefetch" href="https://www.uic.edu/">
+<link rel="dns-prefetch" href="https://s.w.org/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/courses.mscs.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/wp-emoji-release.min..download" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="sb_instagram_styles-css" href="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/sb-instagram.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="tablepress-default-css" href="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/default.min.css" type="text/css" media="all">
+<script type="text/javascript" src="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/jquery.min.js.download"></script>
+<link rel="https://api.w.org/" href="https://courses.mscs.uic.edu/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://courses.mscs.uic.edu/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://courses.mscs.uic.edu/wp-includes/wlwmanifest.xml"> 
+
+
+<link type="text/css" href="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/optanon.css" rel="stylesheet"><style>#optanon ul#optanon-menu li { background-color:  !important }#optanon ul#optanon-menu li.menu-item-selected { background-color:  !important }#optanon #optanon-popup-wrapper .optanon-white-button-middle { background-color: #001E62 !important }.optanon-alert-box-wrapper .optanon-alert-box-button-middle { background-color: #001E62 !important; border-color: #001E62 !important; }#optanon #optanon-popup-wrapper .optanon-white-button-middle button { color: #ffffff !important }.optanon-alert-box-wrapper .optanon-alert-box-button-middle button { color: #ffffff !important }#optanon #optanon-popup-bottom { background-color: #00B5E2 !important }#optanon.modern #optanon-popup-top, #optanon.modern #optanon-popup-body-left-shading { background-color: #00B5E2 !important }.optanon-alert-box-wrapper { background-color:#001E62 !important }.optanon-alert-box-wrapper .optanon-alert-box-bg p { color:#FFFFFF !important }.optanon-alert-box-wrapper {;
+    background-color: #001E62 !important;
+	z-index: 100010 !important;
+}
+.optanon-alert-box-wrapper .optanon-alert-box-bg p {
+    color: #ffffff !important;
+}
+.optanon-alert-box-wrapper .optanon-button-more .optanon-alert-box-button-middle a {
+    color: #ffffff !important;
+}
+.optanon-alert-box-wrapper .optanon-button-allow .optanon-alert-box-button-middle a {
+    color: #001E62 !important;
+}
+#optanon #optanon-popup-wrapper .optanon-white-button-middle {
+    background-color: #001E62 !important;
+}
+
+.optanon-alert-box-wrapper .optanon-button-more .optanon-alert-box-button-middle a:before {
+    content: none;
+}
+.optanon-alert-box-wrapper .optanon-button-allow .optanon-alert-box-button-middle a:before {
+    content: none;
+}
+.optanon-alert-box-wrapper .optanon-alert-box-button-middle {
+    background-color: #00B5E2 !important;
+}
+.optanon-alert-box-body a {
+    color: #ffffff !important;
+    text-decoration: underline !important;
+    padding-left: 5px;
+    font-weight: 600;
+}
+.optanon-show-settings-popup-wrapper { /* Define the width & height of the wrapper so it can be rendered within footer, not past it*/
+	width: 100% !important;
+	height: 32px !important;
+}
+.optanon-show-settings-button.optanon-toggle-display { /* Define the width height of cookie setting button so it can be horizontally centered */
+	z-index: 100009; /* Should be 1 less than the z-index of edge to edge Cookie Disclaimer Banner */
+	height: 32px;
+	width: 142px;
+}
+#optanon-popup-wrapper {
+	 z-index: 100010 !important;
+ }
+#optanon-popup-bg {
+	z-index: 100009 !important;
+}
+@media only screen and (max-width: 752px) {
+    .optanon-alert-box-wrapper .optanon-alert-box-bg p {
+        font-size: 9pt;
+        line-height: 12pt;
+    }
+    .optanon-alert-box-bg .optanon-alert-box-button-container {
+        text-align: right;
+        margin-left: 1em;
+    }
+    .optanon-show-settings-button.optanon-toggle-display { /* Horizontally center Cookie Settings button */
+        margin: 0 auto;
+    }
+}</style><script type="text/javascript" src="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/jquery-3.3.1.min.js.download" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script></head>
+      
+  <body class="is-scrolled-past-header is-scrolled-to-content"><div class="optanon-alert-box-wrapper  " role="alertdialog" aria-labelledby="alert-box-title" aria-describedby="alert-box-message" style="display:none"><div class="optanon-alert-box-bottom-top"><div class="optanon-alert-box-corner-close"><button class="optanon-alert-box-close banner-close-button" aria-label="Close" title="Close" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Banner Close Button&#39;);" tabindex="4"></button></div></div><div class="optanon-alert-box-bg"><div class="optanon-alert-box-logo"> </div><div class="optanon-alert-box-body"><p class="optanon-alert-box-title legacy-banner-title" id="alert-box-title" role="heading" aria-level="2">Cookie Notice</p><p class="banner-content" id="alert-box-message">We use Cookies on this site to enhance your experience and improve our marketing efforts. Click on “About Cookies” to learn more. By continuing to browse without changing your browser settings to block or delete Cookies, you agree to the storing of Cookies and related technologies on your device.   <a href="https://www.vpaa.uillinois.edu/resources/web_privacy" class="banner-policy-link" tabindex="1" aria-label="University of Illinois Web Privacy Notice">University of Illinois Web Privacy Notice</a></p></div><div class="optanon-clearfix"></div><div class="optanon-alert-box-button-container"><div class="optanon-alert-box-button optanon-button-close"><div class="optanon-alert-box-button-middle"><button class="optanon-alert-box-close" aria-label="Close">Close</button></div></div><div class="optanon-alert-box-button optanon-button-allow"><div class="optanon-alert-box-button-middle accept-cookie-container"><button class="optanon-allow-all accept-cookies-button" title="I Agree" aria-label="I Agree" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Banner Accept Cookies&#39;);" tabindex="3">I Agree</button></div></div><div class="optanon-alert-box-button optanon-button-more"><div class="optanon-alert-box-button-middle"><button class="optanon-toggle-display cookie-settings-button" title="About Cookies" aria-label="About Cookies" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Banner Open Preferences&#39;);" tabindex="2">About Cookies</button></div></div></div><div class="optanon-clearfix optanon-alert-box-bottom-padding"></div></div></div><div id="optanon" class="modern"><div id="optanon-popup-bg"></div><div id="optanon-popup-wrapper" role="dialog" aria-modal="true" tabindex="-1" lang="en-GB"><div id="optanon-popup-top"><button onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Preferences Close Button&#39;);" aria-label="Close" class="optanon-close-link optanon-close optanon-close-ui" title="Close"><div id="optanon-close" style="background: url(https://cdn.cookielaw.org/skins/6.4.0/default_flat_bottom_two_button_black/v2/images/optanon-pop-up-close.png);width:34px;height:34px;"></div></button></div><div id="optanon-popup-body"><div id="optanon-popup-body-left"><div id="optanon-popup-body-left-shading"></div><div id="optanon-branding-top-logo" style="background-image: url(&#39;https://cdn.cookielaw.org/logos/4427/4427:uic.edu/CAMP.CIRC.LG.RED.PNG&#39;) !important;"></div><ul id="optanon-menu" aria-label="Navigation Menu" role="tablist"><li class="menu-item-on menu-item-about" title="What are Cookies?"><p class="preference-menu-item"><button role="tab" aria-selected="true" aria-controls="What-are-Cookies?" id="What-are">What are Cookies?</button></p></li><li class="menu-item-necessary menu-item-on" title="Strictly Necessary Cookies"><p class="preference-menu-item"><button role="tab" aria-selected="false" aria-controls="Strictly-Necessary-Cookies" id="Strictly-Necessary">Strictly Necessary Cookies</button></p></li><li class="menu-item-on menu-item-performance" title="Performance Cookies"><p class="preference-menu-item"><button role="tab" aria-selected="false" aria-controls="Performance-Cookies" id="Performance-Cookies">Performance Cookies</button></p></li><li class="menu-item-on menu-item-functional" title="Functional Cookies"><p class="preference-menu-item"><button role="tab" aria-selected="false" aria-controls="Functional-Cookies" id="Functional-Cookies">Functional Cookies</button></p></li><li class="menu-item-on menu-item-advertising" title="Targeting Cookies"><p class="preference-menu-item"><button role="tab" aria-selected="false" aria-controls="Targeting-Cookies" id="Targeting-Cookies">Targeting Cookies</button></p></li><li class="menu-item-moreinfo menu-item-off" title="More Information"><p class="preference-menu-item"><a target="_blank" aria-label="More Information" href="https://www.vpaa.uillinois.edu/resources/cookies" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Preferences Cookie Policy&#39;);">More Information</a></p></li></ul></div><div><div id="optanon-popup-body-right"><p role="heading" aria-level="2" class="legacy-preference-banner-title h2" aria-label="About Cookies">About Cookies</p><div class="vendor-header-container"><p class="header-3" role="heading" aria-level="3"></p><div id="optanon-popup-more-info-bar"><div class="optanon-status"><div class="optanon-status-editable"><form><span class="fieldset"><p><input type="checkbox" value="check" id="chkMain" checked="checked" class="legacy-group-status optanon-status-checkbox"><label for="chkMain">Active</label></p></span></form></div><div class="optanon-status-always-active optanon-status-on"><p>Always Active</p></div></div></div></div><div class="optanon-main-info-text" role="tabpanel"></div></div><div class="optanon-bottom-spacer"></div></div></div><div id="optanon-popup-bottom"> <a href="https://onetrust.com/poweredbyonetrust" target="_blank" rel="noopener"><div id="optanon-popup-bottom-logo" alt="OneTrust Website" style="background: url(https://cdn.cookielaw.org/skins/6.4.0/default_flat_bottom_two_button_black/v2/images/cookie-collective-top-bottom.png);width:155px;height:35px;" title="powered by OneTrust"></div></a><div class="optanon-button-wrapper optanon-save-settings-button optanon-close optanon-close-consent"><div class="optanon-white-button-left"></div><div class="optanon-white-button-middle"><button title="I Agree" aria-label="I Agree" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Preferences Save Settings&#39;);">I Agree</button></div><div class="optanon-white-button-right"></div></div><div class="optanon-button-wrapper optanon-allow-all-button optanon-allow-all" style="display: none;"><div class="optanon-white-button-left"></div><div class="optanon-white-button-middle"><button title="Allow All" aria-label="Allow All" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Preferences Allow All&#39;);">Allow All</button></div><div class="optanon-white-button-right"></div></div></div></div></div>
+
+<!-- Google Tag Manager for RED multisite (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2Q8D2K" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager for RED multisite (noscript) -->
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  <div class="l-page page-template-default page page-id-243 page-child parent-pageid-342 post-type--page  site-type-b theme--blue is-sidebar  ">
+
+
+    <!--[if lte IE 9]>
+<div class="browser-stripe u-dark-region">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+<![endif]-->
+<div class="browser-stripe u-dark-region ie10">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+    
+<header class="l-header" role="banner">
+
+  
+  <div class="header-navigation">
+
+      <div id="skip" class="skip-menu assistive-text">
+  <p>
+    <span class="_main">
+    <a href="https://courses.mscs.uic.edu/stat/stat101/#article">Skip to the content of this page</a>,
+    </span>
+    <a class="_primary-menu" href="https://courses.mscs.uic.edu/stat/stat101/#menu-main">the main menu</a>,
+
+        <a class="_secondary-menu" href="https://courses.mscs.uic.edu/stat/stat101/#menu-secondary">the secondary menu</a>,
+    
+    
+    <a class="_search" href="https://courses.mscs.uic.edu/stat/stat101/#search">the site search form</a>,
+
+    <a class="_home" href="https://courses.mscs.uic.edu/">the site home page</a>.
+  </p>
+</div>
+
+      <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
+<div class="eyebrow-mobile">
+            <div class="eyebrow-mobile-logo eyebrow-logo">
+            <a href="http://uic.edu/" class="uic-logo-icon eyebrow-mobile-logo__uic-logo">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none"></circle>
+<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"></path>
+</svg>
+</a>
+    </div>
+                <div class="site-title-eyebrow-mobile">
+          <a href="https://courses.mscs.uic.edu/">MSCS Courses</a>
+        </div>
+    
+    <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
+  <span class="icon-search ">
+        <span class="assistive-text">Search the site</span>
+      </span>
+    </button>
+    <button class="nav-header-toggle js-nav-header-toggle">
+      <span class="icon-menu ">
+      Toggle Menu
+      </span>
+    </button>
+  </div>
+  <div class="search-input-container-mobile">
+    <div class="search-input-container-mobile__content">
+      <div class="search-title">
+        Search
+        <a class="search-close search-toggle-mobile">
+          <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
+            <use xlink:href="https://courses.mscs.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
+          </svg>
+        </a>
+      </div>
+      <form method="get" action="https://courses.mscs.uic.edu/search" role="search" aria-label="Search this site on your mobile device">
+        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
+        <input type="submit" class="submit-button" name="search" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+    <div class="header-navigation__eyebrow">
+
+                    <div class="header-navigation-logo header-logo">
+                        <a href="http://uic.edu/" class="uic-logo-icon header-navigation-logo__uic-logo">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none"></circle>
+<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"></path>
+</svg>
+</a>
+            </div>
+                <div class="header-navigation__eyebrow-menus">
+
+            <div class="header-navigation__logo-and-site-title">
+
+                                <div class="site-title-main -large">
+                                      <a href="https://courses.mscs.uic.edu/">MSCS Courses</a>
+                                    </div>
+              
+            </div>
+          <nav class="header-menus js-header-menus " aria-label="Primary" role="navigation">
+
+  <div class="site-title-mobile-menu">
+    <a href="https://courses.mscs.uic.edu/">MSCS Courses</a>
+  </div>
+
+  
+  <h2 class="assistive-text">Main Menu</h2>
+  <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-346 menu-item-has-children">
+      <a class="menu-main__first-link" href="https://courses.mscs.uic.edu/math/" target="_self">
+
+        MATH
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand MATH menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand MATH menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-347">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/math077/" target="_self">
+
+                  Math 077: Mathematical Reasoning Workshop
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-348">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/math088/" target="_self">
+
+                  Math 088: Intermediate Algebra Workshop
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-349">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/math090/" target="_self">
+
+                  Math 090: Intermediate Algebra
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-350">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/math110/" target="_self">
+
+                  Math 110: College Algebra
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-351">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/math118/" target="_self">
+
+                  Math 118: Mathematical Reasoning
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-352">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/math121/" target="_self">
+
+                  Math 121: Precalculus
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-353">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/math125/" target="_self">
+
+                  Math 125: Elementary Linear Algebra for Business
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-354">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/math160/" target="_self">
+
+                  Math 160: Finite Mathematics for Business
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-355">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/math165/" target="_self">
+
+                  Math 165: Calculus for Business
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-356">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/math170/" target="_self">
+
+                  Math 170: Calculus for the Life Sciences
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-357">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/math180/" target="_self">
+
+                  Math 180: Calculus I
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-358">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/math181/" target="_self">
+
+                  Math 181: Calculus II
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-359">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/math210/" target="_self">
+
+                  Math 210: Calculus III
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-360">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/math220/" target="_self">
+
+                  Math 220: Differential Equations
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-361">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/math310/" target="_self">
+
+                  Math 310: Applied Linear Algebra
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-474">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/math/other-math-course/" target="_self">
+
+                  Other Courses
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-464">
+      <a class="menu-main__first-link" href="https://courses.mscs.uic.edu/mcs/" target="_self">
+
+        MCS
+      </a>
+
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-458">
+      <a class="menu-main__first-link" href="https://courses.mscs.uic.edu/mtht/" target="_self">
+
+        MTHT
+      </a>
+
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-344 menu-item-has-children">
+      <a class="menu-main__first-link" href="https://courses.mscs.uic.edu/stat/" target="_self">
+
+        STAT
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand STAT menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand STAT menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-243 current_page_item menu-item-362">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/stat/stat101/" target="_self">
+
+                  STAT 101: Introduction to Statistics
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-473">
+                <a class="menu-main__second-link" href="https://courses.mscs.uic.edu/stat/other-stat-courses/" target="_self">
+
+                  Other Courses
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-394">
+      <a class="menu-main__first-link" href="https://courses.mscs.uic.edu/other-course-websites-and-course-coordinator-information/" target="_self">
+
+        Course Coordinators and Other Course Websites
+      </a>
+
+          </li>
+  </ul>
+
+  <div class="l-eyebrow">
+
+    <h2 class="assistive-text">Eyebrow menu</h2>
+    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-33">
+            <a href="https://mslc.uic.edu/" target="_blank">learning center</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-34">
+            <a href="https://mscs.uic.edu/" target="_blank">mscs.uic.edu</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-35">
+            <a href="https://las.uic.edu/" target="_blank">las.uic.edu</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-36">
+            <a href="https://give.las.uic.edu/units/mscs/" target="_blank">+Give</a>
+        </li>
+    </ul>
+
+    <h2 class="assistive-text">UIC menu</h2>
+    <ul class="menu-uic">
+      <li class="_item">
+    <a href="http://uic.edu/">UIC.edu</a>
+  </li>
+  <li class="_item">
+    <a href="http://maps.uic.edu/">Campus Map</a>
+  </li>
+</ul>
+
+
+
+    <div aria-label="Primary" role="search" class="search-wrapper">
+
+      <button id="search" class="search-toggle">
+        <span class="icon-search ">
+          <span class="assistive-text">Search</span>
+        </span>
+      </button>
+
+      <div class="search-input-container">
+        <div class="search-input-container__form">
+          <form method="get" action="https://courses.mscs.uic.edu/search">
+            <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
+            <input type="submit" class="submit-button" name="search" value="Submit">
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+</nav>
+        </div>
+    </div>
+
+    
+  </div>
+
+    
+        <a href="https://courses.mscs.uic.edu/stat/stat101/#menu-secondary" class="menu-secondary-anchor">
+      View Menu
+      <svg aria-label="Down arrow icon" width="32" height="32" viewBox="0 0 32 32" role="presentation">
+        <title>Down arrow icon</title>
+        <g fill="none" fill-rule="evenodd">
+          <circle class="_circle" stroke-width="1" stroke="#007Da5" fill="#fff" cx="16" cy="16" r="15"></circle>
+          <path class="_arrow" stroke-width="2" stroke="#001E62" stroke-linecap="round" d="M12 17l4 4 4-4M16 20v-9"></path>
+        </g>
+      </svg>
+    </a>
+        
+</header>
+
+    <main id="main" class="l-content-wrapper" role="main">
+
+      
+                
+					
+						
+					<div id="noticeblock" class="notification u-dark-region">
+			<div class="l-full">
+				<div class="notification__container">
+
+                      <h2 class="notification__title visible">Important Note:</h2>
+          
+					<a class="notification__close" href="https://courses.mscs.uic.edu/stat/stat101/"><span class="icon-close"></span></a>
+
+					<div class="notification__content">
+						Information on these pages largely reflects instruction prior to changes in instruction due to COVID-19.  Information on course schedule, course format, and reference materials may be out-of-date.
+					</div>
+
+									</div>
+        </div>
+			</div>
+			      
+      <div class="l-full">
+
+        <div class="l-content ">
+
+          
+                      <nav class="breadcrumbs" aria-label="Breadcrumbs">
+  <h2 class="assistive-text">Breadcrumbs</h2>
+  <ol class="menu" vocab="https://schema.org/" typeof="BreadcrumbList">
+
+  
+          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://courses.mscs.uic.edu/"><span property="name">MSCS Courses</span></a>
+        <meta property="position" content="0">
+      </li>
+    
+  
+          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://courses.mscs.uic.edu/stat/"><span property="name">STAT</span></a>
+        <meta property="position" content="1">
+      </li>
+    
+  
+          <li property="itemListElement" typeof="ListItem"><span property="name">STAT 101: Introduction to Statistics</span>
+        <meta property="position" content="3">
+      </li>
+    
+  
+  </ol>
+</nav>
+          
+          <article class="post-type-page" id="article">
+            
+          <div class="intro-text">
+
+                      <h1 class="_title post-title">STAT 101: Introduction to Statistics</h1>
+              
+        
+        
+              
+    
+        
+  </div>
+        <div class="components">
+
+  
+    
+      
+
+<section class="component  ">
+
+  
+  
+    <div class="
+    component-call-to-action
+    
+    
+    ">
+
+    
+    <ul class="_items call-to-action-links">
+              <li>
+                      <a href="https://catalog.uic.edu/search/?search=stat+101&amp;fscaturl=%2Fucat&amp;gscaturl=%2Fucat" target="_blank">
+                            <span class="call-to-action-links__icon text-icon" aria-hidden="true">
+                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+  <title>Document icon</title>
+  <g fill="none" fill-rule="evenodd">
+    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"></circle>
+    <rect class="_mark" fill="#FFF" x="10" y="11" width="16" height="2" rx="1"></rect>
+    <rect class="_mark" fill="#FFF" x="10" y="23" width="10" height="2" rx="1"></rect>
+    <rect class="_mark" fill="#FFF" x="10" y="19" width="16" height="2" rx="1"></rect>
+    <rect class="_mark" fill="#FFF" x="10" y="15" width="10" height="2" rx="1"></rect>
+  </g>
+</svg>
+                </span>
+                <span class="_text">Undergraduate Catalog Listing</span>
+              
+            </a>
+                  </li>
+              <li>
+                      <a href="https://mslc.uic.edu/math" target="_blank">
+                            <span class="call-to-action-links__icon speech-icon" aria-hidden="true">
+                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+  <title>Speech bubble icon</title>
+  <g fill="none" fill-rule="evenodd">
+    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"></circle>
+    <path class="_mark" d="M8 17.1C8 12.626 12.477 9 18 9s10 3.626 10 8.1-4.477 8.1-10 8.1c-1.502 0-2.927-.268-4.205-.75L9 27l.887-5.163C8.7 20.505 8 18.867 8 17.1z" stroke="#FFF" stroke-width="2"></path>
+  </g>
+</svg>
+                </span>
+                <span class="_text">Learning Center (TA Office Hours)</span>
+              
+            </a>
+                  </li>
+              <li>
+                      <a href="https://uic.blackboard.com/" target="_blank">
+                            <span class="call-to-action-links__icon user-icon" aria-hidden="true">
+                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+  <title>User icon</title>
+  <g fill="none" fill-rule="evenodd">
+    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"></circle>
+    <path class="_mark" d="M28.09 26.197C25.707 29.127 22.072 31 18 31s-7.707-1.872-10.09-4.803c1.367-.762 4.573-2.54 5.125-2.744.182-.077.428-.823.488-1.48l.04-.428h.455l.304-1.474.007-.02c.013-.05.022-.174-.018-.2-.473-.32-1.248-1.518-1.41-3.416l-.327-.17-.298-2.284.502-.326-.118-3.344-.004-.02c-.022-.16-.455-3.955 7.11-5.145l.088-.014c.24.036.476.076.71.123l-.28.56c-.028.067-.098.343.384.618.812.468 2.276 1.307 2.608 3.184h.07l-.002.484-.004.102.032.5h-.05l-.103 2.954.503.326-.298 2.283-.327.17c-.162 1.9-.937 3.097-1.41 3.416-.044.028-.025.173-.017.2l.312 1.495h.455l.04.427c.07.735.324 1.41.488 1.48.553.205 3.76 1.983 5.125 2.745z" fill="#FFF"></path>
+  </g>
+</svg>
+                </span>
+                <span class="_text">Blackboard</span>
+              
+            </a>
+                  </li>
+          </ul>
+  </div>
+
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+      <div class="component-multi-column-text">
+
+        
+    <div class="component-description">
+                    <h2 id="course-information" class="__title invisible">Course Information</h2>
+        
+            </div>
+
+
+        <div class="component-multi-column-text__columns">
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--two">
+
+                                            <h3 id="left" class="component-multi-column-text__column__title invisible">
+                          Left
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <h3>Course Prerequisites</h3>
+<p>Grade S in <a href="https://coursetest.red.uic.edu/math/math090/">Math 090</a> (Intermediate Algebra) or appropriate score on the <a href="https://www.aleks.com/uic">department placement test</a>.</p>
+<h3>Course Description</h3>
+<p>STAT 101 is an introductory course in statistics intended for students in a wide variety of areas of study. Topics discussed include displaying and describing data, the normal curve, regression, probability, statistical inference, confidence intervals, and hypothesis tests with applications in the real world. Students also have the opportunity to analyze data sets using technology.</p>
+<p>Credit is not given for STAT 101 for majors in Mathematics and Computer Science. Extensive computer use required.</p>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--two">
+
+                                            <h3 id="course-materials" class="component-multi-column-text__column__title invisible">
+                          Course Materials
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <h3>Course Materials</h3>
+<h4>Textbook</h4>
+<p><em>The Basic Practice of Statistics</em> by Moore, 8th edition, published by MacMillan.&nbsp; Custom edition (available only from the UIC Bookstore) includes only sections covered in this course. Note that a Sapling code is required for the course while the printed textbook is optional.</p>
+<h4>Sapling</h4>
+<p><strong>A Sapling code linked to your Blackboard account is required for this course</strong>.&nbsp; To ensure your Sapling code is properly linked to your blackboard account you should purchase your Sapling code through the link in Blackboard.&nbsp; A Sapling code purchased through the link in Blackboard will include an electronic version of the textbook, buying a print copy is optional.</p>
+<p>&nbsp;</p>
+
+                    </div>
+
+                                    </div>
+
+                    </div>
+    </div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+  
+  
+    <div class="component-description">
+                    <h2 id="exam-study-guides" class="__title visible">Exam Study Guides</h2>
+        
+            </div>
+
+
+  <ul class="component-link-tile ">
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a class="tile-item__link" href="https://uofi.box.com/s/ztc5ubxa834l0n6eqdxv67hkofq2q74l" target="_blank">
+
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--external
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            First Exam
+        </div>
+
+        
+        
+    </div>
+    </a>
+</div>
+
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a class="tile-item__link" href="https://uofi.box.com/s/1b2nzvutrkdh88hhj6l8zsfvulo3p189" target="_blank">
+
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--external
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            Second Exam
+        </div>
+
+        
+        
+    </div>
+    </a>
+</div>
+
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a class="tile-item__link" href="https://uofi.box.com/s/tnvx5np1iqyip7goccogx8gle3elcs3d" target="_blank">
+
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--external
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            Third Exam
+        </div>
+
+        
+        
+    </div>
+    </a>
+</div>
+
+    </li>
+    </ul>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+    
+    <div class="component-description">
+                    <h2 id="list-of-topics" class="__title visible">List of Topics</h2>
+        
+            </div>
+
+
+      <div class="table-container">
+    <table aria-label="List of Topics">
+        <caption>
+    The following topics are covered in Stat 101
+  </caption>
+        <thead>
+      <tr>
+                  <th scope="col">Chapter</th>
+                  <th scope="col">Topic(s)</th>
+              </tr>
+    </thead>
+      <tbody>
+          <tr>
+                            <td>
+            1
+          </td>
+                                      <td>
+            Picturing Distributions with Graphs
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            2
+          </td>
+                                      <td>
+            Describing Distributions with Numbers
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            3
+          </td>
+                                      <td>
+            The Normal Distributions
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            4
+          </td>
+                                      <td>
+            Scatterplots and Correlation
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            5
+          </td>
+                                      <td>
+            Regression
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            6
+          </td>
+                                      <td>
+            Two-Way Tables
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            8
+          </td>
+                                      <td>
+            Sampling and Biases
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            9
+          </td>
+                                      <td>
+            Experiments
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            12
+          </td>
+                                      <td>
+            Introducing Probability: Basic rules and models
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            13
+          </td>
+                                      <td>
+            General Rules of Probability: Addition, Multiplication, Conditional Probability,
+Bayes’ Theorem
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            14
+          </td>
+                                      <td>
+            Binomial Distributions
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            15
+          </td>
+                                      <td>
+            Sampling Distributions
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            16
+          </td>
+                                      <td>
+            Confidence Intervals for One Mean
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            17
+          </td>
+                                      <td>
+            Tests of Significance for One Mean
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            18
+          </td>
+                                      <td>
+            Inference in Practice
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            20
+          </td>
+                                      <td>
+            Inference about a Population Mean and t-distributions
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            21
+          </td>
+                                      <td>
+            Inference about Two Population Means
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            22
+          </td>
+                                      <td>
+            Inference about a Population Proportion
+          </td>
+                        </tr>
+          <tr>
+                            <td>
+            23
+          </td>
+                                      <td>
+            Inference about Two Population Proportions
+          </td>
+                        </tr>
+        </tbody>
+
+    </table>
+  </div>
+
+    
+
+  
+</section>
+
+    
+
+</div>
+
+          </article>
+        </div>
+
+                                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+
+                      <div class="l-sidebar">
+             <nav role="navigation" id="menu-secondary" aria-label="Secondary STAT" class="menu-secondary">
+               <div class="menu-secondary__title-container">
+                 <h2 class="menu-secondary__title"><a class="menu-secondary__title-link" href="https://courses.mscs.uic.edu/stat/">STAT</a></h2>
+                 <a class="menu-secondary__back-to-content" href="https://courses.mscs.uic.edu/stat/stat101/#main">
+                   <svg aria-label="Back to main content" width="32" height="32" viewBox="0 0 32 32">
+                     <title>Back to main content</title>
+                     <g fill="none" fill-rule="evenodd">
+                       <circle class="_circle" fill="#fff" stroke="#007FA5" stroke-width="1" cx="16" cy="16" r="15"></circle>
+                       <path class="_arrow" d="M16 21v-9M12 15l4-4 4 4" stroke="#001E62" stroke-width="2" stroke-linecap="round"></path>
+                     </g>
+                   </svg>
+                 </a>
+               </div>
+
+                <ul class="menu ">
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-243 current_page_item menu-item-362">
+                    <a href="https://courses.mscs.uic.edu/stat/stat101/" target="_self"><span>STAT 101: Introduction to Statistics</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-473">
+                    <a href="https://courses.mscs.uic.edu/stat/other-stat-courses/" target="_self"><span>Other Courses</span></a>                                      </li>
+                                  </ul>
+
+              </nav>
+            </div>
+       
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+          
+                          </div>
+    </main>
+
+    
+        <footer id="footer" class="footer u-dark-region" role="contentinfo">
+
+  <div class="footer-contact">
+    <div class="l-full">
+
+          <div class="simple-footer-contact">
+  <div class="simple-footer-contact__wordmark">
+    <div class="footer-logo">
+                        <div class="footer-logo__wordmark-wrapper">
+                <div class="uic-wordmark -large uic-wordmark--mega-footer">
+
+  <div class="_mark">
+    <a href="http://uic.edu/" class="uic-logo-icon ">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none"></circle>
+<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"></path>
+</svg>
+</a>
+  </div>
+
+  <div class="_text">
+    <a href="https://courses.mscs.uic.edu/">
+                  <span class="_line">College Of</span>
+              <span class="_line">Liberal Arts</span>
+              <span class="_line">And</span>
+              <span class="_line">Sciences</span>
+              </a>
+  </div>
+
+</div>
+            </div>
+            </div>
+  </div>
+
+
+  <div class="simple-footer-contact__contact">
+        <h2 class="simple-footer-contact__header ">Contact</h2>
+    <div class="simple-footer-contact__contact_container">          <div class="site-email"><a href="mailto:dus@math.uic.edu">dus@math.uic.edu</a></div>
+</div>
+    <div class="simple-footer-contact__contact_container">        </div>
+  </div>
+
+
+  <div class="simple-footer-contact__site-social-links">
+     <div aria-label="Social Media Accounts" class="site-social-links">
+  <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
+  <ul class="site-social-links__list">
+                          </ul>
+</div>
+  </div>
+
+</div>
+    
+    </div>
+  </div>
+
+  
+  <div class="footer-uic-menu">
+    <div class="l-full">
+
+      <div aria-label="UIC.edu Links">
+  <h2 class="assistive-text">UIC.edu links</h2>
+  <ul class="uic-footer-menu">
+    <li><strong><a href="https://uic.edu/">UIC.edu</a></strong></li>
+    <li><a href="https://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
+    <li><a href="https://uicflames.com/">Athletics</a></li>
+    <li><a href="https://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
+    <li><a href="https://disabilityresources.uic.edu/">Disability Resources</a></li>
+    <li><a href="https://emergency.uic.edu/">Emergency Information</a></li>
+    <li><a href="https://today.uic.edu/events">Event Calendar</a></li>
+    <li><a href="https://uic.edu/about/job-opportunities">Job Openings</a></li>
+    <li><a href="https://library.uic.edu/">Library</a></li>
+    <li><a href="https://maps.uic.edu/">Maps</a></li>
+    <li><a href="https://ready.uic.edu/digital-materials/uic-safe-mobile-app/">UIC Safe Mobile App</a></li>
+    <li><a href="https://today.uic.edu/">UIC Today</a></li>
+    <li><a href="https://uihealth.uic.edu/">UI Health</a></li>
+    <li><a href="https://dos.uic.edu/student-veterans-affairs/">Veterans Affairs</a></li>
+  </ul>
+</div>
+
+    </div>
+  </div>
+
+  <div class="footer-legal">
+    <div class="l-full">
+
+      <div class="red-version">Powered by Red 2.41.2</div>
+
+<div class="site-copyright">
+  © 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
+  <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a>
+</div>
+
+<div class="campuses" aria-label="Campuses">
+  <h2 class="assistive-text">Campuses</h2>
+  <ul class="campuses-list">
+    <li><a href="https://www.uillinois.edu/">University of Illinois System</a></li>
+    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
+    <li><a href="https://www.uis.edu/">Springfield</a></li>
+  </ul>
+</div>
+<div class="cookie-banner">
+  <div id="footer-bottom">
+    <div class="optanon-show-settings-popup-wrapper"><div class="optanon-show-settings-button optanon-toggle-display"><div class="optanon-show-settings-left"></div><div class="optanon-show-settings-middle"><a class="optanon-show-settings">Cookie Settings</a></div><div class="optanon-show-settings-right"></div></div></div>
+  </div>
+</div>
+    </div>
+  </div>
+
+</footer>
+
+	    </div>
+
+
+  <!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://courses.mscs.uic.edu/wp-admin/admin-ajax.php";
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/sb-instagram.min.js.download"></script>
+<script type="text/javascript" src="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/uic-publish-post-sett.download"></script>
+<script type="text/javascript" src="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/acf-field-group-toggl.download"></script>
+<script type="text/javascript" src="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/alert.js.download"></script>
+<script type="text/javascript" src="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/main.js.download"></script>
+<script type="text/javascript" src="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/wp-embed.min.js.download"></script>
+
+
+
+  
+  
+  <script async="" src="./STAT 101_ Introduction to Statistics _ MSCS Courses _ University of Illinois at Chicago_files/f5cc0259-ebf9-460e-b6.download" type="text/javascript" charset="UTF-8"></script>
+
+  
+
+<style type="text/css">/*[inert]*/[inert]{position:relative!important;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;pointer-events:none}[inert]::before{content:'';display:block;position:absolute;top:0;left:0;right:0;bottom:0}</style><style type="text/css">/*[inert]*/*[inert]{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;pointer-events:none}</style></body></html>
