@@ -14,6 +14,29 @@ In my opinion, computer science can be divided in 9 subfields:
 8. Languages and Compilers 
 9. Distributed Systems
 
+### Computer Science and my data science degree
+
+In my data science degree, I don't have time to see all those fields. We
+mostly focus on mathematics, data science and machine learning. As a result,
+I want to learn the basic of the computer science subject not covered by my
+degree.
+
+As I see it, my learning process should revolve around 4 axis: 
+1. Maths, data science and machine learning from my degree
+2. Computer science
+3. Data Science specialization
+4. Others non tech stuffs
+
+### What I'll need to learn
+
+| Data Science Degree | Computer Science | Specialization | Others |
+| ------------------- | ---------------- | -------------- | ------ |
+| * Maths             |                  |                |        |
+| *                   |                  |                |        |
+	
+|                     |                  |                |        |
+
+
 ### Ressources that I used to build my learning path
 
 	- CS 4 Free: https://www.cs4free.com/
@@ -28,6 +51,10 @@ In my opinion, computer science can be divided in 9 subfields:
 	- Bioinformatics Curriculum by UC San Diego: http://be.ucsd.edu/bioinformatics-curriculum
 	- Joshua Zhanson Course's: http://jzhanson.com/
 	- Introductory Programming Courses by MIT: https://ocw.mit.edu/courses/intro-programming/
+	- Standford CS Degree Courses List: https://exploredegrees.stanford.edu/coursedescriptions/cs/
+	- Camron MacLeod Computer Science Curriculum: https://www.cameronmacleod.com/blog/cs-degree-structure
+	- Path to Learn: https://www.thepathtolearn.com/
+	- Laconic Machine Learning: https://laconicml.com/ivy-league-universities-courses/
 
 ### Part 0: Being a Functionnal Programmer
 
@@ -82,7 +109,7 @@ In my opinion, computer science can be divided in 9 subfields:
 	1. Computer Architecture by Carnegie Mellon: https://www.youtube.com/watch?v=BJ87rZCGWU0&list=PL5PHm2jkkXmidJOd59REog9jDnPDTG6IJ&index=2&t=0s
 	2. Parallel Computer Architecture and Programming by Carnegie Mellon: http://www.cs.cmu.edu/~418/schedule.html
 
-### Part 3: Algoritms and Data Structures 
+### Part 3: Algorithms and Data Structures 
 
 	1. Hacker Rank Videos on YT
 	2. Intro to Algorithms by MIT 6.006: https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
